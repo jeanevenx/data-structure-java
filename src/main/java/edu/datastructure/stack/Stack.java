@@ -14,4 +14,22 @@ public class Stack {
         top.setReferenceNode(temporaryTop);
     }
 
+    public Node pop(){
+
+        if(!isEmpty()){
+            Node poppedNode = top;
+            top = top.getReferenceNode();
+            return poppedNode;
+        }
+
+        return null;
+
+    }
+
+    @Override
+    public String toString() {
+        return "Stack{" +
+                "top=" + top +
+                '}';
+    }
 }
