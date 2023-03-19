@@ -26,4 +26,11 @@ public class Node {
     public void setReferenceNode(Node referenceNode) {
         this.referenceNode = referenceNode;
     }
+
+    @Override
+    public String toString() {
+        return "Node{" +
+                "content=" + content +
+                '}';
+    }
 }

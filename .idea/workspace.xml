@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09167945-66e0-439d-8452-3f025bff2c35" name="Changes" comment="Implementing the [node] and the [stack] class">
+    <list default="true" id="09167945-66e0-439d-8452-3f025bff2c35" name="Changes" comment="Implementing the [pop] method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/datastructure/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/datastructure/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/datastructure/stack/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/datastructure/stack/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/datastructure/stack/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/datastructure/stack/Stack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +23,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="PUSH_TAGS">
       <GitPushTagMode>
         <option name="argument" value="--follow-tags" />
@@ -54,6 +56,26 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.datastructure.Main" />
+      <module name="data-structure-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.datastructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -77,12 +99,20 @@
       <option name="project" value="LOCAL" />
       <updated>1678156827564</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Implementing the [pop] method">
+      <created>1678243985181</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678243985181</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Implementing the [node] and the [stack] class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementing the [node] and the [stack] class" />
+    <MESSAGE value="Implementing the [pop] method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementing the [pop] method" />
   </component>
 </project>

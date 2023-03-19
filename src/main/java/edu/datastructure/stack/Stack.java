@@ -9,7 +9,6 @@ public class Stack {
 
     public void push(Node newNode){
         Node temporaryTop = top;
-
         top = newNode;
         top.setReferenceNode(temporaryTop);
     }
@@ -28,8 +27,20 @@ public class Stack {
 
     @Override
     public String toString() {
-        return "Stack{" +
-                "top=" + top +
-                '}';
+        String printedString = "-----------------\n";
+        printedString += "   Stack\n";
+        printedString += "-----------------\n";
+        Node temporaryNode = top;
+        while(true){
+            if(temporaryNode != null){
+                printedString += "[Node{Content=" + temporaryNode.getContent() + "}]\n";
+                temporaryNode = temporaryNode.getReferenceNode();
+            }else{
+                break;
+            }
+        }
+        printedString += "============";
+        return printedString;
     }
+
 }
