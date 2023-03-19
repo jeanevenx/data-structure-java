@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09167945-66e0-439d-8452-3f025bff2c35" name="Changes" comment="Implemented the stack">
+    <list default="true" id="09167945-66e0-439d-8452-3f025bff2c35" name="Changes" comment="Refactored and defined the node and the stack as generic type">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/datastructure/queue/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/datastructure/queue/Queue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/datastructure/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/datastructure/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/datastructure/stack/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/datastructure/stack/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/datastructure/stack/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/datastructure/stack/Stack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +42,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2MT6SBHb6fYBgxZtGJJgF6gTGbN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
@@ -113,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679248724657</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Refactored and defined the node and the stack as generic type">
+      <created>1679254409298</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679254409298</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -121,6 +129,7 @@
     <MESSAGE value="Implementing the [node] and the [stack] class" />
     <MESSAGE value="Implementing the [pop] method" />
     <MESSAGE value="Implemented the stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented the stack" />
+    <MESSAGE value="Refactored and defined the node and the stack as generic type" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored and defined the node and the stack as generic type" />
   </component>
 </project>
