@@ -6,20 +6,24 @@ import edu.datastructure.stack.Stack;
 public class Main {
     public static void main(String[] args) {
 
-       Stack myStack = new Stack();
+       Stack<String> myStack = new Stack();
 
-       myStack.push(new Node(1));
-       myStack.push(new Node(2));
-       myStack.push(new Node(3));
-       myStack.push(new Node(4));
-       myStack.push(new Node(5));
-       System.out.println(myStack);
+       myStack.push("First content");
+       myStack.push("Second content");
+       myStack.push("Third content");
+       myStack.push("Fourth content");
 
-       myStack.pop();
-       System.out.println(myStack);
 
-       myStack.push(new Node(6));
+       System.out.println("Size: " + myStack.size());
+
+       System.out.println(myStack.pop());
+       System.out.println("Size: " + myStack.size());
+
+       myStack.push("fifth content");
        System.out.println(myStack);
+       System.out.println("Size: " + myStack.size());
+
+
 
     }
 }

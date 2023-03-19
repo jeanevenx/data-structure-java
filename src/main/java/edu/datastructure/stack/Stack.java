@@ -1,16 +1,23 @@
 package edu.datastructure.stack;
 
-public class Stack {
-    Node top = null;
+public class Stack<T> {
+    private Node top = null;
+    private int length = 0;
 
+
+    public int size(){
+        return this.length;
+    }
     public boolean isEmpty(){
         return top == null ? true : false;
     }
 
-    public void push(Node newNode){
-        Node temporaryTop = top;
+    public void push(T content){
+        Node<T> newNode = new Node<>(content);
+        Node<T> temporaryTop = top;
         top = newNode;
         top.setReferenceNode(temporaryTop);
+        length++;
     }
 
     public Node pop(){
@@ -18,6 +25,7 @@ public class Stack {
         if(!isEmpty()){
             Node poppedNode = top;
             top = top.getReferenceNode();
+            length--;
             return poppedNode;
         }
 
@@ -39,7 +47,7 @@ public class Stack {
                 break;
             }
         }
-        printedString += "============";
+        printedString += "======================";
         return printedString;
     }
 

@@ -1,21 +1,21 @@
 package edu.datastructure.stack;
 
-public class Node {
-    private int content;
-    private Node referenceNode = null;
+public class Node<T> {
+    private T content;
+    private Node<T> referenceNode = null;
 
     public Node() {
     }
 
-    public Node(int content) {
+    public Node(T content) {
         this.content = content;
     }
 
-    public int getContent() {
+    public T getContent() {
         return content;
     }
 
-    public void setContent(int content) {
+    public void setContent(T content) {
         this.content = content;
     }
 
@@ -23,7 +23,7 @@ public class Node {
         return referenceNode;
     }
 
-    public void setReferenceNode(Node referenceNode) {
+    public void setReferenceNode(Node<T> referenceNode) {
         this.referenceNode = referenceNode;
     }
 

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09167945-66e0-439d-8452-3f025bff2c35" name="Changes" comment="Implementing the [pop] method">
+    <list default="true" id="09167945-66e0-439d-8452-3f025bff2c35" name="Changes" comment="Implemented the stack">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/datastructure/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/datastructure/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/edu/datastructure/stack/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/datastructure/stack/Node.java" afterDir="false" />
@@ -106,13 +106,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678243985181</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Implemented the stack">
+      <created>1679248724657</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679248724657</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Implementing the [node] and the [stack] class" />
     <MESSAGE value="Implementing the [pop] method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementing the [pop] method" />
+    <MESSAGE value="Implemented the stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented the stack" />
   </component>
 </project>
